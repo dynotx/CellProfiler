@@ -22,6 +22,13 @@ def medial_axis(image):
     return skimage.morphology.medial_axis(image)
 
 
+def morphological_skeleton_2d(image):
+    return skimage.morphology.skeletonize(image)
+
+def morphological_skeleton_3d(image):
+    return skimage.morphology.skeletonize_3d(image)
+
+
 def get_threshold_robust_background(
     image,
     lower_outlier_fraction=0.05,
