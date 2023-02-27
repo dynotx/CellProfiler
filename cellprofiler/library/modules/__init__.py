@@ -5,3 +5,4 @@ from ._fillobjects import fillobjects
 from ._threshold import threshold
 from ._morphologicalskeleton import morphologicalskeleton
 from ._medianfilter import medianfilter
+from ._reducenoise import reducenoise
