@@ -22,11 +22,11 @@ def medial_axis(image):
     return skimage.morphology.medial_axis(image)
 
 
-def morphology_skeleton_2d(image):
+def morphological_skeleton_2d(image):
     return skimage.morphology.skeletonize(image)
 
 
-def morphology_skeleton_3d(image):
+def morphological_skeleton_3d(image):
     return skimage.morphology.skeletonize_3d(image)
 
 
